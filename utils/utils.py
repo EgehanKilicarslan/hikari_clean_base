@@ -52,7 +52,6 @@ class MongoDBManager:
 
     Methods:
         __init__(database_url: str, database_name: str): Initializes the MongoDBManager object and connects to the database.
-        get_collection(collection_name: str): Retrieves a collection from the database.
         insert_document(collection: Any, document: Dict[str, Any]): Inserts a document into a collection.
         find_document(collection: Any, query: Dict[str, Any], projection: Optional[Dict[str, Any]] = None): Finds a document in a collection.
     """
